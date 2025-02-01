@@ -30,6 +30,7 @@ import warnings
 warnings.filterwarnings('ignore')
 import time
 from functools import wraps
+from config import DATA_DIR
 
 def timer(func):
     @wraps(func)
